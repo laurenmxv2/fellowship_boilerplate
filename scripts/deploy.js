@@ -1,6 +1,6 @@
 async function main() {
   const [deployer] = await ethers.getSigners();
-  console.log([PRIVATE_KEY]);
+  
   console.log("Deploying contracts with the account:", deployer.address);
 
   const token = await ethers.deployContract("Token");

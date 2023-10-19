@@ -18,7 +18,7 @@ module.exports = {
     linea_testnet: {
       url: `https://linea-goerli.infura.io/v3/6baf3bb52be84807b33e5c84bd20c4c3`,
       accounts: [PRIVATE_KEY],
-      console.log(PRIVATE_KEY),
+  
     },
     linea_mainnet: {
       url: `https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}`,
